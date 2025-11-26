@@ -1,3 +1,5 @@
+from find_best_station import find_best_station
+
 def greedy_search_global ():
 
     stations = {}
@@ -17,7 +19,7 @@ def greedy_search_global ():
     stations["kthirteen"] = set(["mo", "ar"])
 
 
-    stations_remaning = stations.copy()
+    stations_remaining = stations.copy()
     covered_states = set()
     stations_needed = []
 
